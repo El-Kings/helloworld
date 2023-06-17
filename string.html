@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeclaringNumberDataTypes</title>
+</head>
+<body>
+    <div id="variableContainer"></div>
+    <script>
+        // JavaScript code to disply the variables
+let age = 74;
+const gravity = 9.81;
+let mass = 65;
+const PI = 3.14;
+const boilingPoint = 100;
+const bodyTemp = 37;
+
+//get the container element
+let container = document.getElementById("variableContainer");
+// create paragraph for each variable and append them to the container
+container.innerHTML += "<p>age: " + age +"  </p>";
+container.innerHTML += "<p>gravity: " + gravity +"  </p>";
+container.innerHTML += "<p>mass: " + mass +"  </p>";
+container.innerHTML += "<p>PI: " + PI +"  </p>";
+container.innerHTML += "<p>boilingPoint: " + boilingPoint +"  </p>";
+container.innerHTML += "<p>bodyTemp: " + bodyTemp +"  </p>";
+    </script>
+</body>
+</html>
